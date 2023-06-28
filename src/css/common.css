@@ -19,28 +19,7 @@ img {
   display: block;
   max-width: 100%;
 }
-.button-center {
-  margin-top: 280px;
-  display: flex;
-  justify-content: center;
-}
-.start-button {
-  background-color: aquamarine;
-  margin-right: 20px;
-}
-.stop-button,
-.start-button {
-  padding: 20px 40px 20px 40px;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 1.21;
-  border-color: #fafafa;
-  border-radius: 10px;
-}
-.stop-button {
-  background-color: chartreuse;
-}
+
 .mountain {
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
