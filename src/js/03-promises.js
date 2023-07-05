@@ -15,7 +15,7 @@ const onSubmit = event => {
 
   const amount = Number(amountEl.value);
   let delay = firstDelay;
-  for (i = 0; i < amount; i++) {
+  for (let i = 0; i < amount; i++) {
     const position = i;
 
     createPromise(position, delay)
