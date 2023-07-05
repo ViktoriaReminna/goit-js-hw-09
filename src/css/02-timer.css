@@ -8,14 +8,14 @@
 }
 
 .btn-change {
-  padding: 7px 25px 7px 25px;
+  padding: 5px 20px 5px 20px;
   background-color: rgb(0, 153, 255);
   border-color: #fafafa;
   border: 1px solid #fcf1e0;
-
+  height: 40px;
   font-style: normal;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 1.21;
 }
 .timer {
@@ -26,16 +26,22 @@
 }
 .input-change {
   padding: 5px 20px 5px 20px;
-
+  height: 40px;
   font-style: normal;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 1.21;
+  text-align: center;
 }
 .field {
   display: flex;
   flex-direction: column;
   margin-right: 20px;
+  font-size: 18px;
+  text-align: center;
+  font-weight: 600;
+}
+.field {
 }
 .label {
 }

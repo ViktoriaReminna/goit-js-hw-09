@@ -10,13 +10,12 @@ const btnStopRef = document.querySelector('[data-stop]');
 let timerId = null;
 
 const onColor = () => {
-  const changeColor = getRandomHexColor();
-  backColorRef.style.backgroundColor = changeColor;
   timerId = setInterval(() => {
     const changeColor = getRandomHexColor();
     backColorRef.style.backgroundColor = changeColor;
   }, 1000);
   btnStartRef.disabled = true;
+  btnStopRef.disabled = false;
 };
 
 btnStartRef.addEventListener('click', onColor);
@@ -24,4 +23,5 @@ btnStartRef.addEventListener('click', onColor);
 btnStopRef.addEventListener('click', () => {
   clearInterval(timerId);
   btnStartRef.disabled = false;
+  btnStopRef.disabled = true;
 });
